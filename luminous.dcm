@@ -4,4 +4,8 @@ $CMP MICRO-B_USB
 D Micro-B USB connector
 $ENDCMP
 #
+$CMP WireTerminal
+D Terminal to solder wire directly onto the board
+$ENDCMP
+#
 #End Doc Library

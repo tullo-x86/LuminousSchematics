@@ -91,4 +91,30 @@ X FB 10 700 -400 300 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# TestPoint
+#
+DEF TestPoint T 0 0 N N 1 F N
+F0 "T" 100 -50 39 H V C CNN
+F1 "TestPoint" 0 100 39 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 250 0 50 0 1 0 N
+X Point 1 0 0 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# WireTerminal
+#
+DEF WireTerminal T 0 0 N N 1 F N
+F0 "T" 50 -50 39 H V C CNN
+F1 "WireTerminal" 25 75 39 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+C 125 0 25 0 1 0 N
+X Terminal 1 0 0 98 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 #End Library
